@@ -1,0 +1,21 @@
+@media screen and (max-width:450px) {
+    #menu-bar{
+        display: block;
+        z-index: 99999;
+    }
+    .header{
+        max-width: 450px;
+        width: 100%;
+        
+    }
+    .sidebar_filter {
+        max-width: 450px;
+        width: 100%;
+    }
+        .container {
+            min-width: 1110px;
+            width: 100%;
+            /* margin: 0 auto; */
+        }
+       
+}

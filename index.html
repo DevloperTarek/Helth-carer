@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <!-- custom css file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="img/healthcare_logo_transparent.png" />
+            </div>
+            <div class="header_content">
+                <p>Ptient charts|Testing home helth agency.Inc.</p>
+            </div>
+            <!-- menu bar hear -->
+            <div id="menu-bar" class="fas fa-bars"></div>
+        </div>
+
+        <div class="main_wrapper">
+            <div class="container-full">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="sidebar">
+                            <div class="sidebar_top">
+                                <div class="add_new_wrapper">
+                                    <button class="primary_button">Add New Patient</button>
+                                </div>
+                                <div class="sidebar_filter">
+                                    <ul>
+                                        <li>
+                                            <label class="filter_label" for="Branch:">Branch:</label>
+                                            <select name="" id="Branch">
+                                                <option value="1">1. Testing home here</option>
+                                                <option value="1">branch</option>
+                                                <option value="1">branch</option>
+                                            </select>
+                                        </li>
+                                        <li>
+                                            <label class="filter_label" for="Branch:">New:</label>
+                                            <select name="" id="Branch">
+                                                <option value="1">Active patient</option>
+                                                <option value="1">branch</option>
+                                                <option value="1">branch</option>
+                                            </select>
+                                        </li>
+                                        <li>
+                                            <label class="filter_label" for="Branch:">Filter:</label>
+                                            <select name="" id="Branch">
+                                                <option value="1">All</option>
+                                                <option value="1">branch</option>
+                                                <option value="1">branch</option>
+                                            </select>
+                                        </li>
+                                        <li>
+                                            <label class="filter_label" for="Branch:">Find:</label>
+                                            <select name="" id="Branch">
+                                                <option value="1">Dall</option>
+                                                <option value="1">branch</option>
+                                                <option value="1">branch</option>
+                                            </select>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="sidebar_bottom">
+                                <div class="sidebar_table">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Last name</th>
+                                                <th>First name</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="active">
+                                                <td>Dallas</td>
+                                                <td>Dallas</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dallas</td>
+                                                <td>Dallas</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dallas</td>
+                                                <td>Dallas</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dallas</td>
+                                                <td>Dallas</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dallas</td>
+                                                <td>Dallas</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="main_content">
+                            <div class="main_content_nav">
+                                <ul>
+                                    <li><a href="#">Patient Profile</a></li>
+                                    <li><a href="#">Medication Profile(s)</a></li>
+                                    <li><a href="#">Allergy Profile</a></li>
+                                    <li><a href="#">Immunization Profile</a></li>
+                                    <li><a href="#">Authorization Listings</a></li>
+                                    <li><a href="#">Communication Notes</a></li>
+                                    <li><a href="#">Orders And Care Plans</a></li>
+                                    <li><a href="#">60 Day Summaries</a></li>
+                                    <li><a href="#">Vital Signs Charts</a></li>
+                                    <li><a href="#">Triage Classification</a></li>
+                                    <li><a href="#">Deleted Tasks/Documents</a></li>
+                                    <li><a href="#">Upload Documents</a></li>
+                                </ul>
+                            </div>
+                            <div class="">
+                                <div class="patient_info">
+                                    <div class="patient_info_wrapper">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    <div class="patient_image">
+                                                        <img src="img/patient.jpg" />
+                                                    </div>
+                                                    <div class="change_photo_button">
+                                                        <a href="">[ Change Photo ]</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    <div class="patient_info_content">
+                                                        <div
+                                                            class="patient_info_content_header d-flex align-items-center">
+                                                            <h1>DALLAS, TRAVIS</h1>
+                                                            <div class="d-flex items-center ms-auto">
+                                                                <button class="primary_button">Refresh</button>
+                                                                <button class="primary_button">Change Status</button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="patient_info_table">
+                                                            <table>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>MR #:</td>
+                                                                        <td>4515168</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Birthday: </td>
+                                                                        <td>March 20, 1920</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Sart of Care Date: </td>
+                                                                        <td>02/02/2017</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Physician Phone: </td>
+                                                                        <td>(255) 444-444-444</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Physician Name: </td>
+                                                                        <td>Name of Physician</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Insurance Id: </td>
+                                                                        <td>Insurance id</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <div class=" more_buttons d-flex align-items-center">
+                                                                <ul class="d-flex align-items-center">
+                                                                    <li><a href="#">[ Edit ]</a></li>
+                                                                    <li><a href="#">[ More ]</a></li>
+                                                                    <li><a href="#">[ Directions ]</a></li>
+                                                                    <li><a href="#">[ Admission Periods ]</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="patient_info_footer_buttons d-flex align-items-center">
+                                    <button class="primary_button">Schedule Activity</button>
+                                    <ul>
+                                        <li><a href=""><span class="badge"></span>Visit Comments</a></li>
+                                        <li><a href=""><span class="badge"></span>Episod Comments</a></li>
+                                        <li><a href=""><span class="badge"></span>Missed/Returned</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="patient_status_table">
+                                <div class="patient_table_filter d-flex align-items-center">
+                                    <div class="filter_show">
+                                        <label>Show</label>
+                                        <select>
+                                            <option value="all">All</option>
+                                        </select>
+                                    </div>
+                                    <div class="filter_date">
+                                        <label>Date</label>
+                                        <select>
+                                            <option value="all">All</option>
+                                        </select>
+                                    </div>
+                                    <p>No Episods Found</p>
+                                </div>
+                                <div class="patient_table">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Task</th>
+                                                <th>Schedule Date <span></span></th>
+                                                <th>Assigned To</th>
+                                                <th></th>
+                                                <th>Status</th>
+                                                <th></th>
+                                                <th></th>
+                                                <th></th>
+                                                <th></th>
+                                                <th></th>
+                                                <th></th>
+                                                <th></th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="d-flex align-items-center">
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="task_not_found">
+                                        <p>No Task could not be Found</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- <header>
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">
+                    <img src="" alt="logo">
+                </div>
+                <span class="header-text">
+                    <span>Ptient cart|Testing home helth agency.Inc.</span>
+                </span>
+            </div>
+
+            <nav class="navbar">
+
+                <a href="#New">New Order</a>
+                <a href="#New">New Order</a>
+                <a href="#New">New Order</a>
+                <a href="#New">New Order</a>
+                <a href="#New">New Order</a>
+            </nav>
+
+            <main class="main_wrapper">
+                <div class="img_hear">
+                    <img src="./images/img.jpg" alt="Example img">
+                </div>
+                <div class="">
+                    <h2>DALLS,TRAVIs</h2>
+                    <button>Refresh</button>
+                    <button>Change Status</button>
+                </div>
+                <table>
+                    <!-- <th>
+                        <tr>
+                            <td>DALLS,TRAVIS</td>
+                            <td><button class="btn">Refresh</button></td>
+                            <td><button class="big_btn">Change Status</button></td>
+                        </tr>
+
+                    </th> -->
+    <!-- <tbody>
+                        <tr>
+                            <td>Mr#</td>
+                            <td>451578</td>
+                        </tr>
+                        <tr>
+                            <td>Mr#</td>
+                            <td>451578</td>
+                        </tr>
+                        <tr>
+                            <td>Mr#</td>
+                            <td>451578</td>
+                        </tr>
+                        <tr>
+                            <td>Mr#</td>
+                            <td>451578</td>
+                        </tr>
+                        <tr>
+                            <td>Mr#</td>
+                            <td>451578</td>
+                        </tr>
+                        <tr>
+                            <td>Mr#</td>
+                            <td>451578</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button>[Change Photo]</button>
+                            </td>
+                            <td>
+                                <button>[Change Photo]</button>
+                            </td>
+                            <td>
+                                <button>[Change Photo]</button>
+                            </td>
+                            <td>
+                                <button>[Change Photo]</button>
+                            </td>
+                            <td>
+                                <button>[Change Photo]</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </main> -->
+    <!-- <div class="footer">
+                <div class="btn-wrapper">
+                    <button class="Shedule_btn">Shedule Activity</button>
+                    <div class="btn-group">
+                        <span>visit comment</span>
+                        <span>visit comment</span>
+                        <span>visit comment</span>
+                    </div>
+                </div>
+                <div class="equal-select-bar">
+                    <div class="bars_wrapper">
+                        <label for="show">Show</label>
+                        <select name="" id="bars">
+                            <option value="1">All</option>
+                            <option value="1">1</option>
+                            <option value="1">1</option>
+                        </select>
+                    </div>
+                    <label for="show">Show</label>
+                    <select name="" id="bars">
+                        <option value="1">All</option>
+                        <option value="1">1</option>
+                        <option value="1">1</option>
+                    </select>
+                    <span>No Episodes Found</span>
+                </div>
+                <div class="found">
+                    No Task could be found
+                </div>
+            </div> -->
+    <!-- <div class="side_bar">
+                <div class="select-btn">
+                    <button class="parient-btn">Add New Patient</button>
+                </div>
+
+                <div class="select_bar">
+                    <label for="Branch:">Branch:</label>
+
+                    <select name="" id="Branch">
+                        <option value="1">branch</option>
+                        <option value="1">branch</option>
+                        <option value="1">branch</option>
+                    </select>
+                </div>
+                <div class="select_bar">
+                    <label for="Branch:">New:</label>
+                    <select name="" id="New">
+                        <option value="1">new</option>
+                        <option value="1">new</option>
+                        <option value="1">new</option>
+                    </select>
+                </div>
+                <div class="select_bar">
+                    <label for="Branch">Filter:</label>
+                    <select name="" id="filters">
+                        <option value="1">all</option>
+                        <option value="1">all</option>
+                        <option value="1">all</option>
+                    </select>
+                </div> -->
+    <!-- sidebar hear -->
+    <!-- <button class="parient-btn">Add New Patient</button> -->
+    <!-- <div class="select_bar">
+                    <label for="Branch">Find:</label>
+                    <input type="text" placeholder="Find" id="find">
+                </div>
+                <table id="side_hear">
+                    <thead>
+                        <tr>
+                            <td>First Name</td>
+                            <td>Last Name</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dales</td>
+                            <td>Dales</td>
+
+                        </tr>
+                        <tr class="yellow">
+                            <td>Dales</td>
+                            <td>Dales</td>
+
+                        </tr>
+                        <tr>
+                            <td>Dales</td>
+                            <td>Dales</td>
+                        </tr>
+                        <tr class="yellow">
+                            <td>Dales</td>
+                            <td>Dales</td>
+                        </tr>
+                        <tr>
+                            <td>Dales</td>
+                            <td>Dales</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div> -->
+    <!-- </div>
+    </header> -->
+</body>
+
+</html>
